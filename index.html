@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SolarLab</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="img/cmd.png" />&nbsp;SolarLab
+        </div>
+        <div class="console" id="console_id">
+            SolarLab [Version 1.0.2016] (c) SolarLab, 2016. Все права защищены.
+            <div class="clear-line"></div>
+            Для получения списка команд напечатайте --help
+            <div id="text"></div>
+            <div id="input">
+                <span class="base-phrase">SOLARLAB\</span><span data-bind="text: directoryText"></span>&gt;<span class="input" data-bind="text: inputCommand"></span>
+                <span id="cursor">_</span>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/knockout-3.4.0.js"></script>
+    <script src="js/underscore-min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

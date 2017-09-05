@@ -1,0 +1,4 @@
+.box-shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(offX=5, offY=5, color=#000000);
+}

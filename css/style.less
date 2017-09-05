@@ -1,0 +1,53 @@
+@import "reset.css";
+@import "mixins";
+
+body{
+  font-family: Consolas, sans-serif;
+  .wrapper {
+    position: fixed;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    .box-shadow;
+    background-color: @background-color;
+    .header {
+      background-color: #ffffff;
+      padding: 3px 4px;
+    }
+    #input {
+      input { 
+              color: @color;
+      top: 24px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      overflow-y: scroll;
+      border: none; 
+      background-color: black;
+    
+      }
+    }
+    .console {
+      color: @color;
+      position: absolute;
+      top: 24px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      overflow-y: scroll;
+      padding: 15px 10px;
+      box-sizing: border-box;
+      .clear-line{
+        height: 16px;
+      }
+      #text{
+        margin-top: 15px;
+      }
+    }
+    #cursor{
+      font-weight: bold;
+      margin-left: -10px;
+    }
+  }
+}
